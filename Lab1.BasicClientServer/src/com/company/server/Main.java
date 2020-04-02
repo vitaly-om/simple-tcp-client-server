@@ -37,7 +37,7 @@ public class Main {
                             out.flush();
                         }
                         else if (message.equals("members")) {
-                            out.write("Anna Tsytovtseva, Vitalii Omelchenko\n");
+                            out.write("Anna Tsytovtseva, Vitalii Omelchenko, Illya Novohatskiy\n");
                             out.flush();
                         } else {
                             out.write("Unsupported command\n");
